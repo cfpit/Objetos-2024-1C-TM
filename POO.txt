@@ -1,0 +1,19 @@
+POO
+	--> todo es un objeto
+	--> todo objeto pertenece a una clase
+
+	--> clase
+		--> atributos: caracteristicas que comparten todos los objetos de una misma clase.
+		--> metodos: acciones que pueden ejecutar todos los objetos de una misma clase.
+
+		estado: set de valores de los atributos de un objeto
+				en un determinado momento.
+		comportamiento: conjunto de metodos que el objeto de una 				 clase ejecuta.
+
+	El estado de un objeto debe cambiar a traves de su comportamiento.
+
+	Los atributos de un objeto deben cambiar a traves de la ejecucion de sus metodos.
+
+	La velocidad del auto debe cambiar a traves de los metodos acelerar o frenar.
+
+	
