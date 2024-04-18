@@ -1,0 +1,43 @@
+Usos comunes de las enumeraciones en Java:
+
+1 - Representar conjuntos de constantes:
+
+Los enums son ideales para definir conjuntos de valores fijos y relacionados, como los días de la semana, los colores, los estados de un sistema o los tipos de moneda.
+
+Facilitan la lectura y comprensión del código, ya que reemplazan nombres descriptivos por variables con significado claro.
+
+Mejoran la seguridad del código al restringir los valores posibles para una variable, evitando errores por asignaciones incorrectas.
+
+2 - Mejorar la legibilidad del código:
+
+Al usar nombres descriptivos para los valores enum, se mejora la legibilidad del código, facilitando su comprensión y mantenimiento.
+
+Se evita la necesidad de utilizar cadenas de texto o variables constantes con nombres poco claros.
+
+3 - Controlar flujos de ejecución:
+
+Simplifica la lógica de control y mejora la legibilidad en comparación con el uso de variables if-else.
+
+
+4 - Ejemplos de uso:
+
+Días de la semana:
+
+enum Dia {
+  LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO;
+}
+
+Colores:
+
+enum Color {
+  ROJO, VERDE, AZUL, AMARILLO, NEGRO, BLANCO;
+}
+
+Estados de un pedido:
+
+enum EstadoPedido {
+  PENDIENTE, PROCESADO, ENVIADO, ENTREGADO, CANCELADO;
+}
+
+
+
